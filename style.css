@@ -1,4 +1,24 @@
 :root {
+  --ff-primary-100: "Plus Jakarta Sans", sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  --clr-primary-100: hsl(252, 66%, 62%);
+  --clr-primary-200: hsl(28, 89%, 67%);
+  --clr-primary-300: hsl(0, 78%, 79%);
+  --clr-primary-400: hsl(7, 77%, 66%);
+  --clr-primary-500: hsl(172, 46%, 57%);
+  --clr-primary-600: hsl(314, 45%, 23%);
+
+  --clr-neutral-100: hsl(0, 0%, 1%);
+  --clr-neutral-200: hsl(30, 5%, 45%);
+  --clr-neutral-300: hsl(28, 100%, 97%);
+
   --fs-300: clamp(0.7rem, 0.66rem + 0.2vw, 0.8rem);
   --fs-400: clamp(0.88rem, 0.83rem + 0.24vw, 1rem);
   --fs-500: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
