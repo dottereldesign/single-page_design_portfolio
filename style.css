@@ -118,8 +118,7 @@ header img {
   height: 48px;
 }
 
-header a {
-  background-color: var(--clr-neutral-100);
+.btn {
   font-size: var(--fs-400);
   border-radius: 28px;
   display: inline-block;
@@ -131,6 +130,10 @@ header a {
   align-items: center;
   width: 176px;
   height: 44px;
+}
+
+.header_btn {
+  background-color: var(--clr-neutral-100);
 }
 
 /* main */
@@ -249,4 +252,35 @@ main p {
   left: 16px;
   font-size: var(--fs-600);
   color: var(--clr-neutral-300);
+}
+
+/* about */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding: 0 16px 0 16px;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+}
+
+.about h3 {
+  font-size: var(--fs-600);
+  margin-top: 32px;
+  text-align: center;
+}
+
+.about p {
+  margin-top: 24px;
+  font-size: var(--fs-500);
+  text-align: center;
+}
+
+.about_btn {
+  margin-top: 24px;
+  background-color: var(--clr-primary-400);
 }
