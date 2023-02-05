@@ -184,11 +184,11 @@ main p {
   gap: 16px;
   padding: 0 16px 0 16px;
   margin: 48px auto 0 auto;
-  max-width: 364px;
+  max-width: 343px;
 }
 
 .graphic_links-1 {
-  width: min(100%, 364px);
+  width: min(100%, 343px);
   height: 364px;
   background-color: var(--clr-primary-100);
   grid-column-start: 1;
@@ -285,6 +285,8 @@ main p {
   }
 
   .graphic_links-1 {
+    width: min(100%, 333px);
+    height: 364px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -292,6 +294,8 @@ main p {
   }
 
   .graphic_links-2 {
+    width: min(100%, 155px);
+    height: 182px;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -299,6 +303,8 @@ main p {
   }
 
   .graphic_links-3 {
+    width: min(100%, 155px);
+    height: 182px;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -306,6 +312,8 @@ main p {
   }
 
   .graphic_links-4 {
+    width: min(100%, 333px);
+    height: 158px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -313,6 +321,8 @@ main p {
   }
 
   .graphic_links-5 {
+    width: min(100%, 333px);
+    height: 182px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -320,6 +330,8 @@ main p {
   }
 
   .graphic_links-6 {
+    width: min(100%, 333px);
+    height: 182px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 3;
@@ -338,6 +350,8 @@ main p {
   }
 
   .graphic_links-1 {
+    width: min(100%, 354px);
+    height: 356px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -345,6 +359,8 @@ main p {
   }
 
   .graphic_links-2 {
+    width: min(100%, 164px);
+    height: 182px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -352,6 +368,8 @@ main p {
   }
 
   .graphic_links-3 {
+    width: min(100%, 164px);
+    height: 182px;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -359,6 +377,8 @@ main p {
   }
 
   .graphic_links-4 {
+    width: min(100%, 354px);
+    height: 182px;
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -366,6 +386,8 @@ main p {
   }
 
   .graphic_links-5 {
+    width: min(100%, 354px);
+    height: 158px;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -373,6 +395,8 @@ main p {
   }
 
   .graphic_links-6 {
+    width: min(100%, 354px);
+    height: 158px;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 2;
